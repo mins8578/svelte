@@ -66,6 +66,6 @@
         <button class="page-link" on:click="{() => get_question_list(page+1)}">다음</button>
     </li>
 </ul>
-<!-- 페이징처리 끝 -->
+<!-- 페이징처리끝 -->
   <a use:link href="/question-create" class="btn btn-primary">질문 등록하기</a>
 </div>
